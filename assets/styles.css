@@ -1,0 +1,156 @@
+body{
+    font-size: 20px;
+    font-family: monospace;
+}
+
+p{
+
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+img {
+    padding-top: 300px;
+}
+
+#container{
+    margin : 20px auto;
+    background-color: white;
+    height: 600px;
+    width : 700px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px;
+    position: relative;
+}
+#start{
+    font-size: 1.5em;
+    font-weight: bolder;
+    width:300px;
+    height:40px;
+    border : 2px solid lightgrey;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    left:200px;
+    top:250px;
+    color : black;
+}
+#start:hover{
+    border: 3px solid lightseagreen;
+    color : black;
+}
+
+#question{
+    width:500px;
+    height : 125px;
+    position: absolute;
+    right:0;
+    top:0;
+}
+#question p{
+    margin : 0;
+    padding : 15px;
+    font-size: 1.25em;
+}
+
+#choices{
+    width : 400px;
+    position: absolute;
+    right : 0;
+    top : 125px;
+    padding : 10px
+}
+.choice{
+    display: inline-block;
+    width : 135px;
+    text-align: center;
+    border : 1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+    padding : 5px;
+}
+
+.choice:hover{
+    border : 2px solid grey;
+    font-weight: bold;
+}
+
+#timer{
+    height : 100px;
+    width : 200px;
+    top : 100px;
+    text-align: center;
+}
+#counter{
+    font-size: 3em;
+}
+
+#qtimeGauge{
+    width : 150px;
+    height : 10px;
+    border-radius: 10px;
+    background-color: gray;
+    margin-left : 25px;
+    margin-top: 150px;
+}
+
+#timeGauge{
+    height : 10px;
+    border-radius: 10px;
+    background-color: darkred;
+    margin-top : -10px;
+    margin-left : 25px;
+}
+
+#progress{
+    width : 500px;
+    position: absolute;
+    bottom : 0px;
+    right : 0px;
+    padding:5px;
+    text-align: right;
+}
+
+.prog{
+    width : 25px;
+    height : 25px;
+    border: 3px solid #000;
+    display: inline-flex;
+    border-radius: 100%;
+    margin-left : 5px;
+    margin-right : 5px;
+}
+
+#scoreContainer{
+    margin : 20px auto;
+    background-color: white;
+    opacity: 0.8;
+    height: 300px;
+    width : 700px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px;
+    position: relative;
+    display: none;
+}
+
+
+#scoreContainer p{
+    position: absolute;
+    display: block;
+    width : 50px;
+    height :50px;
+    top:100px;
+    left:325px;
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
