@@ -9,7 +9,7 @@ const counter = document.getElementById("counter");
 const timeGauge = document.getElementById("timeGauge");
 const progress = document.getElementById("progress");
 const scoreDiv = document.getElementById("scoreContainer");
-const resetQuiz = document.getElementById("Reset");
+//const resetQuiz = document.getElementById("Reset");
 
 let questions = [
     {
@@ -150,4 +150,7 @@ function scoreRender(){
  
 }
 
-    document.getElementById("quiz").reset();
+//function resetQuiz(){
+    //document.getElementById("reset").innerHTML = reset;
+//}
+//document.getElementById("Reset").addEventListener("click", resetQuiz);
